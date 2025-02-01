@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>hello</p>
-</body>
-</html>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .sora {
+        font-family: "Sora", serif;
+      }
+      .adlam {
+        font-family: "ADLaM Display", serif;
+      }
+    </style>
+  </head>
+
+  <body class="sora">
+    <!-- nav section  -->
+    <nav class="bg-[#ffb578] border-black flex justify-between items-center px-[140px] max-sm:px-4 py-[26px] max-sm:py-3 max-sm:border " >
+      <div class="flex items-center gap-3" >
+        <img class="w-12" src="c1-assets/logo-header.png" alt="logo" />
+        <p class="text-2xl max-sm:hidden">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+      </div>
+      <div class="max-sm:hidden">
+        <ul class="text-xl flex gap-8 ">
+          <li>Find a pet</li>
+          <li>Breeds</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+      <div class="flex gap-4 max-sm:hidden">
+        <svg class="w-6  " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+        </svg>
+        <svg class="w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>   
+        <button class="bg-white text-xl px-7 py-2 rounded-lg border border-[#FFDC26]  ">Login</button>
+        <button class="bg-[#FFDC26] text-xl px-7 py-2 rounded-lg ">Register</button>
+      </div>
+      <svg class="w-[30px] hidden  max-sm:inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </nav>
+
+
